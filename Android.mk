@@ -19,6 +19,9 @@ ifndef TARGET_ARCH_ABI
 TARGET_ARCH_ABI := armeabi-v7a
 endif
 
+CFLAGS = -Wno-sign-compare
+CPPFLAGS = -Wno-sign-compare
+
 # Cardview Dir
 cardview_dir := ../../../frameworks/support/v7/cardview
 

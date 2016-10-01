@@ -5,6 +5,9 @@ include $(CLEAR_VARS)
 LOCAL_MODULE	:= libbypass
 LOCAL_MODULE_TAGS := optional
 
+CFLAGS = -Wno-sign-compare
+CPPFLAGS = -Wno-sign-compare
+
 LOCAL_SRC_FILES := \
 	android/bypass.cpp \
 	src/parser.cpp \

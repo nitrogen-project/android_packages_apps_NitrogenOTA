@@ -1,6 +1,7 @@
 SRC      = $(wildcard *.cpp)
 OBJ      = $(SRC:.cpp=.o)
-CPPFLAGS = -Wall
+CFLAGS = -Wno-sign-compare
+CPPFLAGS = -Wall -Wno-sign-compare
 CXXFLAGS = -I../dep/libsoldout -g -O3 -fPIC
 
 .PHONY: all clean
