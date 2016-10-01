@@ -38,7 +38,7 @@
 
     <!-- Dialogs -->
     <string name="main_not_compatible_title">No compatible</string>
-    <string name="main_not_compatible_message">Esta ROM no es compatible con OTA Updates. Por favor contacte con su desarrollador para más información</string>
+    <string name="main_not_compatible_message">Esta ROM no es compatible con Nitrogen OTA. Por favor contacte con su desarrollador para más información</string>
     <string name="main_not_connected_title">No conectado</string>
     <string name="main_not_connected_message">No está conectado a ninguna red. Por favor habilite su red o WiFi e inténtelo de nuevo.</string>
 

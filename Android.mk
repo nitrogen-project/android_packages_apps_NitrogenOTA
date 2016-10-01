@@ -35,7 +35,7 @@ LOCAL_AAPT_FLAGS := \
 	--auto-add-overlay \
 	--extra-packages android.support.v7.cardview
 
-LOCAL_PACKAGE_NAME := OTAUpdates
+LOCAL_PACKAGE_NAME := NitrogenOTA
 
 LOCAL_MODULE_TAGS := optional
 
