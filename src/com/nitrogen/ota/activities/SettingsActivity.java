@@ -79,8 +79,8 @@ public class SettingsActivity extends PreferenceActivity implements OnPreference
 		mInstallPrefs = (Preference) findPreference(INSTALL_PREFS);
 		mInstallPrefs.setOnPreferenceClickListener(this);
 
-		mAboutActivity = (Preference) findPreference(ABOUT_ACTIVITY_PREF);
-		mAboutActivity.setOnPreferenceClickListener(this);
+//		mAboutActivity = (Preference) findPreference(ABOUT_ACTIVITY_PREF);
+//		mAboutActivity.setOnPreferenceClickListener(this);
 
 		mRingtonePreference = (RingtonePreference) findPreference(NOTIFICATIONS_SOUND);
 
@@ -116,7 +116,7 @@ public class SettingsActivity extends PreferenceActivity implements OnPreference
 		mProPreference = (Preference) findPreference(ABOUT_PREF_PRO);
 		mProPreference.setOnPreferenceClickListener(this);
 
-		Boolean isPro = Utils.isPackageInstalled("com.nitrogen.otapro", mContext);
+		Boolean isPro = Utils.isPackageInstalled("com.nitrogen.ota", mContext);
 		if (isPro) {		
 			mProPreference.setLayoutResource(R.layout.preference_pro);
 			mProPreference.setTitle(R.string.about_pro_title);
