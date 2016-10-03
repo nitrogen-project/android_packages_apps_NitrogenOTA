@@ -176,7 +176,7 @@ public class Preferences implements Constants{
 	}
 
 	public static Boolean getAdsEnabled(Context context) {
-		return getPrefs(context).getBoolean(ADS_ENABLED, true);
+		return getPrefs(context).getBoolean(ADS_ENABLED, false);
 	}
 
 	public static String getOldChangelog(Context context) {
@@ -188,7 +188,7 @@ public class Preferences implements Constants{
 	}
 	
 	public static Boolean getIsPro(Context context) {
-		return getPrefs(context).getBoolean(IS_PRO, false);
+		return getPrefs(context).getBoolean(IS_PRO, true);
 	}
 
 	public static void setUpdateLastChecked(Context context, String time) {
