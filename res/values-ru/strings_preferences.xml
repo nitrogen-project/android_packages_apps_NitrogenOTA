@@ -55,5 +55,7 @@
     <string name="notification_ignore_release_title">Игнорировать релиз</string>
     <string name="notification_ignoring_release">Игнорируемая версия: </string>
     <string name="notification_not_ignoring_release">В данный момент никакой релиз не игнорируется</string>
+    <string name="storage">Хранилище</string>
+    <string name="storage_location">Место хранения</string>
 
 </resources>
