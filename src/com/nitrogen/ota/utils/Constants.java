@@ -65,12 +65,8 @@ public interface Constants {
 	public static final String NOTIFICATIONS_SOUND 						= "notifications_sound";
 	public static final String NOTIFICATIONS_VIBRATE 					= "notifications_vibrate";
 	public static final String IGNORE_RELEASE_VERSION 					= "ignored_release";
-	public static final String ADS_ENABLED 								= "ads_enabled";
 	public static final String OLD_CHANGELOG 							= "old_changelog";
 	public static final String FIRST_RUN 								= "first_run";
-	public static final String ABOUT_ACTIVITY_PREF						= "about_activity_pref";
-	public static final String IS_PRO									= "is_pro";
-	public static final String ABOUT_PREF_PRO 							= "about_pro";
 	public static final String STORAGE_LOCATION 						= "updater_storage_location";
 
 	// Broadcast intents

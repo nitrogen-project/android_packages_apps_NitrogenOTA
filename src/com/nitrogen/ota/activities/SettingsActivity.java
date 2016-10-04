@@ -58,12 +58,10 @@ public class SettingsActivity extends PreferenceActivity implements OnPreference
 	private Context mContext;
 	private Builder mInstallPrefsDialog;
 	private Preference mInstallPrefs;
-	private Preference mAboutActivity;
 	private RingtonePreference mRingtonePreference;
 	private SparseBooleanArray mInstallPrefsItems = new SparseBooleanArray();
 	private SwitchPreference mIgnoredRelease;
 	private ListPreference mThemePref;
-	private Preference mProPreference;
 	private Preference mStorageLocation;
 
 	@SuppressLint("NewApi") @Override
@@ -78,9 +76,6 @@ public class SettingsActivity extends PreferenceActivity implements OnPreference
 
 		mInstallPrefs = (Preference) findPreference(INSTALL_PREFS);
 		mInstallPrefs.setOnPreferenceClickListener(this);
-
-//		mAboutActivity = (Preference) findPreference(ABOUT_ACTIVITY_PREF);
-//		mAboutActivity.setOnPreferenceClickListener(this);
 
 		mRingtonePreference = (RingtonePreference) findPreference(NOTIFICATIONS_SOUND);
 
@@ -112,22 +107,6 @@ public class SettingsActivity extends PreferenceActivity implements OnPreference
 		} else {
 			setNotIgnore(false);
 		}
-
-		mProPreference = (Preference) findPreference(ABOUT_PREF_PRO);
-		mProPreference.setOnPreferenceClickListener(this);
-
-		Boolean isPro = Utils.isPackageInstalled("com.nitrogen.ota", mContext);
-		if (isPro) {		
-			mProPreference.setLayoutResource(R.layout.preference_pro);
-			mProPreference.setTitle(R.string.about_pro_title);
-			mProPreference.setSummary(R.string.about_pro_summary);
-			mProPreference.setSelectable(!isPro);
-		} else {
-			mProPreference.setLayoutResource(R.layout.preference_no_pro);
-			mProPreference.setTitle(R.string.about_pro_title);
-			mProPreference.setSummary(R.string.about_non_pro_summary);
-		}
-		Preferences.setIsPro(mContext, isPro);
 		
 		mStorageLocation = (Preference) findPreference(STORAGE_LOCATION);
 		mStorageLocation.setSelectable(false);
@@ -171,19 +150,6 @@ public class SettingsActivity extends PreferenceActivity implements OnPreference
 
 	@Override
 	public boolean onPreferenceClick(Preference preference) {
-		String otaPackage = "com.nitrogen.otapro";
-
-		if (preference == mInstallPrefs) {
-			showInstallPrefs();
-		} else if (preference == mAboutActivity) {
-			Intent intent = new Intent(mContext, AboutActivity.class);
-			startActivity(intent);
-		} else if (preference == mProPreference) {
-			String url = "https://play.google.com/store/apps/details?id=" + otaPackage;
-			Intent intent = new Intent(Intent.ACTION_VIEW);
-			intent.setData(Uri.parse(url));
-			startActivity(intent);
-		}
 		return false;
 	}
 

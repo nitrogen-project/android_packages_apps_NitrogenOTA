@@ -175,20 +175,12 @@ public class Preferences implements Constants{
 		return getPrefs(context).getString(IGNORE_RELEASE_VERSION, "0");
 	}
 
-	public static Boolean getAdsEnabled(Context context) {
-		return getPrefs(context).getBoolean(ADS_ENABLED, false);
-	}
-
 	public static String getOldChangelog(Context context) {
 		return getPrefs(context).getString(OLD_CHANGELOG, context.getResources().getString(R.string.app_version));
 	}
 
 	public static Boolean getFirstRun(Context context) {
 		return getPrefs(context).getBoolean(FIRST_RUN, true);
-	}
-	
-	public static Boolean getIsPro(Context context) {
-		return getPrefs(context).getBoolean(IS_PRO, true);
 	}
 
 	public static void setUpdateLastChecked(Context context, String time) {
@@ -278,12 +270,6 @@ public class Preferences implements Constants{
 	public static void setFirstRun(Context context, boolean value) {
 		SharedPreferences.Editor editor = getPrefs(context).edit();
 		editor.putBoolean(FIRST_RUN, value);
-		editor.commit();
-	}
-	
-	public static void setIsPro(Context context, boolean value) {
-		SharedPreferences.Editor editor = getPrefs(context).edit();
-		editor.putBoolean(IS_PRO, value);
 		editor.commit();
 	}
 }

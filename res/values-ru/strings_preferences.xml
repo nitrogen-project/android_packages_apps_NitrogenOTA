@@ -55,9 +55,5 @@
     <string name="notification_ignore_release_title">Игнорировать релиз</string>
     <string name="notification_ignoring_release">Игнорируемая версия: </string>
     <string name="notification_not_ignoring_release">В данный момент никакой релиз не игнорируется</string>
-    <string name="ads_cat">Реклама</string>
-    <string name="ads_enable">Включить рекламу</string>
-    <string name="ads_summary_on">Имейте в виду, оставляя рекламу, вы поддерживаете дальнейшее развите приложения</string>
-    <string name="ads_summary_off">Имейте в виду, включая рекламу, вы поддерживаете дальнейшее развите приложения</string>
 
 </resources>

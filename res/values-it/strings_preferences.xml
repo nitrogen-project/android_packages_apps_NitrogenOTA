@@ -56,9 +56,5 @@
     <string name="notification_ignore_release_title">Ignora rilascio</string>
     <string name="notification_ignoring_release">Versione attualmente ignorata: </string>
     <string name="notification_not_ignoring_release">Non stai ignorando nessun rilascio</string>
-    <string name="ads_cat">Pubblicità</string>
-    <string name="ads_enable">Abilita pubblicità</string>
-    <string name="ads_summary_on">Considera di mantenere abilitata la pubblicità per supportare ulteriori sviluppi di questa applicazione</string>
-    <string name="ads_summary_off">Considera di abilitare la pubblicità per supportare ulteriori sviluppi di questa applicazione</string>
 
 </resources>
