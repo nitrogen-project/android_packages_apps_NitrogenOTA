@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ 	Copyright (C) 2015 Matt Booth (Kryten2k35).
+ 
+ 	Licensed under the Apache License, Version 2.0 (the "License"); 
+ 	you may not use this file except in compliance with the License.
+ 	You may obtain a copy of the License at
+ 
+ 		http://www.apache.org/licenses/LICENSE-2.0
+ 
+ 	Unless required by applicable law or agreed to in writing, software
+ 	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources>
+
+    <string name="preferences_name">设置</string>
+    <string name="twrp_ors_title">启用OpenRecovery脚本</string>
+    <string name="twrp_ors_summary">适用于TWRP和一些自定义CWM（非官方）的恢复</string>
+    <string name="twrp_ors_information">启用此应用程序恢复文件无需用户交互，只需点击安装并等待它完成。</string>
+    <string name="twrp_ors_delete_after">安装后删除</string>
+    <string name="twrp_ors_delete_after_summary">OpenRecovery脚本在安装后删除更新吗？</string>
+    <string name="twrp_ors_install_prefs">安装首选项</string>
+    <string name="twrp_ors_install_prefs_summary">使用ORS脚本时选择一些安装首选项</string>
+    <string name="twrp_ors_wipe_data">擦除 Data</string>
+    <string name="twrp_ors_wipe_cache">擦除 Cache</string>
+    <string name="twrp_ors_wipe_dalvik">擦除 Dalvik</string>
+    <string name="notifications_title">通知</string>
+    <string name="background_service_summary">自动检查更新，如果有可用更新则显示一个通知</string>
+    <string name="background_frequency">更新检查频率</string>
+    <string name="background_30mins">每30分钟</string>
+    <string name="background_60mins">每60分钟</string>
+    <string name="background_2hours">每2小时</string>
+    <string name="background_3hours">每3小时</string>
+    <string name="background_6hours">每6小时</string>
+    <string name="background_12hours">每12小时</string>
+    <string name="background_24hours">每1天</string>
+    <string name="background_2days">每2天</string>
+    <string name="background_3days">每3天</string>
+    <string name="background_7days">每周</string>
+    <string name="theme_title">应用主题</string>
+    <string name="mobile_wifi_network">网络</string>
+    <string name="mobile_wifi_title">通过网络更新</string>
+    <string name="wifi_network_only">只通过Wi-Fi</string>
+    <string name="mobile_or_wifi">移动数据或者Wi-Fi</string>
+    <string name="theme">主题</string>
+    <string name="theme_dark">深色</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_light_dark">浅色，深色动作栏</string>
+    <string name="notifications_sound">声音</string>
+    <string name="notifications_vibrate">振动</string>
+    <string name="silent_ringtone">静音</string>
+    <string name="notification_ignore_release_title">忽略版本</string>
+    <string name="notification_ignoring_release">当前忽略版本：</string>
+    <string name="notification_not_ignoring_release">您目前没有忽略版本</string>
+    <string name="storage">存储</string>
+    <string name="storage_location">存储位置</string>
+
+</resources>
