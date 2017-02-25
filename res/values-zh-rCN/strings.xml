@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ 	Copyright (C) 2015 Matt Booth (Kryten2k35).
+ 
+ 	Licensed under the Apache License, Version 2.0 (the "License"); 
+ 	you may not use this file except in compliance with the License.
+ 	You may obtain a copy of the License at
+ 
+ 		http://www.apache.org/licenses/LICENSE-2.0
+ 
+ 	Unless required by applicable law or agreed to in writing, software
+ 	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+	
+    <!-- ATTENTION -->
+    <!-- DO NOT TRANSLATE THE ITEMS MARKED "translatable="false" -->
+    
+    <!-- Generic strings -->
+    <string name="cancel">取消</string>
+    <string name="ok">OK</string>
+    <string name="delete">删除</string>
+    <string name="back">返回</string>
+    <string name="help">帮助</string>
+    <string name="loading">正在下载&#8230;</string>
+    <string name="filename_separator">-</string>
+    <string name="download">下载</string>
+    <string name="install">安装</string>
+    <string name="downloading">正在安装&#8230;</string>
+    <string name="rebooting">重启&#8230;</string>
+    <string name="information">信息</string>
+    <string name="update_available">ROM可用更新</string>
+    <string name="ignore">忽略</string>
+    <string name="donate">捐赠</string>
+    <string name="finished">完成</string>
+    <string name="settings">设置</string>
+    <string name="done">完成</string>
+    <string name="delete_confirm">您确定要删除这个文件吗？</string>
+
+</resources>
