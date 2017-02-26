@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ 	Copyright (C) 2015 Matt Booth (Kryten2k35).
+ 
+ 	Licensed under the Apache License, Version 2.0 (the "License"); 
+ 	you may not use this file except in compliance with the License.
+ 	You may obtain a copy of the License at
+ 
+ 		http://www.apache.org/licenses/LICENSE-2.0
+ 
+ 	Unless required by applicable law or agreed to in writing, software
+ 	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="main_update_available">可用更新！</string>
+    <string name="main_update_finished">下载完成</string>
+    <string name="main_no_update_available">无可用更新</string>
+    <string name="main_update_filename">文件名</string>
+    <string name="main_update_progress">下载进度</string>
+    <string name="main_website">网站</string>
+    <string name="main_website_summary">访问ROM网站</string>
+    <string name="main_donate">捐赠</string>
+    <string name="main_donate_summary">给ROM开发者捐赠</string>
+    <string name="main_tap_to_download">点击下载</string>
+    <string name="main_download_completed_details">点击了解详情</string>
+    <string name="main_tap_to_view_progress">点击查看进度</string>
+    <string name="main_last_checked">上次检查更新时间</string>
+    <string name="main_addon">插件</string>
+    <string name="main_addon_summary">浏览和下载此ROM的其他文件</string>
+
+    <!-- ROM Information -->
+    <string name="main_rom_information">ROM信息</string>
+    <string name="main_rom_name">ROM名称：</string>
+    <string name="main_rom_version">ROM版本：</string>
+    <string name="main_rom_codename">ROM代码名称：</string>
+    <string name="main_rom_build_date">ROM日期：</string>
+    <string name="main_android_verison">Android版本：</string>
+    <string name="main_rom_developer">开发者：</string>
+
+    <!-- Dialogs -->
+    <string name="main_not_compatible_title">不兼容</string>
+    <string name="main_not_compatible_message">此ROM与Nitrogen OTA不兼容，请联系你的ROM开发者，此应用程序需要一个开发者特殊支持的定制ROM，这不是故障请不要为此差评。</string>
+    <string name="main_not_connected_title">未连接</string>
+    <string name="main_not_connected_message">您没有连接任何网络，请启用移动数据或者WIFI再重试。</string>
+    <string name="main_playstore_title">比特币</string>
+    <string name="main_playstore_message">您没有任何可用的应用程序来处理 \"bitcoin:\" MIME类型.\n\n您要搜索Google Play商店找到一个吗？</string>
+
+    <!-- Content Descriptions -->
+    <string name="main_button_icon">按钮图标</string>
+    <string name="main_dev_website_icon">开发者网站图标</string>
+    <string name="main_actionbar_button">动作栏按钮</string>
+
+    <!-- Toast -->
+    <string name="main_release_ignored">版本忽略</string>
+
+</resources>

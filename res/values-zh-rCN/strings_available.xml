@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ 	Copyright (C) 2015 Matt Booth (Kryten2k35).
+ 
+ 	Licensed under the Apache License, Version 2.0 (the "License"); 
+ 	you may not use this file except in compliance with the License.
+ 	You may obtain a copy of the License at
+ 
+ 		http://www.apache.org/licenses/LICENSE-2.0
+ 
+ 	Unless required by applicable law or agreed to in writing, software
+ 	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources>
+
+    <string name="available_update_name">更新名称和文件信息</string>
+    <string name="available_progress_counter">0MB / 0MB</string>
+    <string name="available_changelog_title">更新日志</string>
+    <string name="available_changelog_content">您的更新日志在此</string>
+    <string name="available_check_md5">检查MD5</string>
+    <string name="available_ready_to_install">准备安装</string>
+    <string name="available_md5_ok">MD5通过</string>
+    <string name="available_md5_failed">MD5失败</string>
+    <string name="available_checking_md5">正在检查 MD5&#8230;</string>
+    <string name="available_downloading">正在下载&#8230;</string>
+    <string name="are_you_sure">您确定吗？</string>
+    <string name="available_delete_confirm_message">您确定要删除已下载的文件？</string>
+    <string name="available_reboot_confirm">现在重启吗？</string>
+    <string name="available_url_error">地址错误：请查看你的ROM开发者</string>
+    <string name="available_reboot_manual_title">请现在重启</string>
+    <string name="available_reboot_manual_message">请重启至恢复模式然后刷新ROM.\n\n你可以在这里找到 /sdcard/Downloads</string>
+    <string name="available_wrong_network_title">选择了错误的网络</string>
+    <string name="available_wrong_network_message">您在尝试使用移动数据下载，并且设置只允许Wifi，请更改相应的设置。</string>
+
+</resources>

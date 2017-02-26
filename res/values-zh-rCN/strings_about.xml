@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ 	Copyright (C) 2015 Matt Booth (Kryten2k35).
+ 
+ 	Licensed under the Apache License, Version 2.0 (the "License"); 
+ 	you may not use this file except in compliance with the License.
+ 	You may obtain a copy of the License at
+ 
+ 		http://www.apache.org/licenses/LICENSE-2.0
+ 
+ 	Unless required by applicable law or agreed to in writing, software
+ 	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources>
+
+    <string name="about_about_title">关于</string>
+    <string name="about_preferences_summary">Nitrogen OTA信息，捐赠和信用</string>
+    <string name="about_about_summary">这个程序是出于我对那些想要工作但无法工作的应用程序而沮丧。我为我的ROM开发它，但我很快意识到其他开发人员可能会发现这也有用。 因此，我将其概括并编写了一些实现指南供其他开发人员使用。</string>
+    <string name="about_credits_title">信用</string>
+    <string name="about_credits_summary">信用概要</string>
+    <string name="about_donate_title">捐赠</string>
+    <string name="about_donate_summary">如果这个应用程序使你的生活更轻松，请考虑捐赠给应用程式开发人员(Kryten2k35)</string>
+    <string name="about_donate_button_summary">请我喝酒</string>
+    <string name="about_version_title">版本</string>
+    <string name="about_app_version">应用程序版本</string>
+    <string name="changelog">更新日志</string>
+    <string name="changelog_summary">查看应用程序更新日志</string>
+    <string name="changelog_error">更新日志读取错误</string>
+
+</resources>
