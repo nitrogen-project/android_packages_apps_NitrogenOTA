@@ -29,7 +29,7 @@
     <string name="twrp_ors_wipe_cache">Vymazať Cache</string>
     <string name="twrp_ors_wipe_dalvik">Vymazať Dalvik</string>
     <string name="notifications_title">Upozornenia</string>
-    <string name="background_service_summary">Automaticky kontrolovať aktualizácie a ak sú k dispozícii zobraziť upozornenie</string>
+    <string name="background_service_summary">Automaticky kontrolovať aktualizácie a ak sú k dispozícii, zobraziť upozornenie</string>
     <string name="background_frequency">Frekvencia kontroly aktualizácií</string>
     <string name="background_30mins">30 minút</string>
     <string name="background_60mins">60 minút</string>
@@ -58,5 +58,4 @@
     <string name="notification_not_ignoring_release">V súčasnej dobe nie je ignorovaná žiadna verzia</string>
     <string name="storage">Úložisko</string>
     <string name="storage_location">Umiestnenie úložiska</string>
-    
 </resources>
