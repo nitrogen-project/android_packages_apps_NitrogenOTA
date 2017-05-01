@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ 	Copyright (C) 2015 Matt Booth (Kryten2k35).
+ 
+ 	Licensed under the Apache License, Version 2.0 (the "License"); 
+ 	you may not use this file except in compliance with the License.
+ 	You may obtain a copy of the License at
+ 
+ 		http://www.apache.org/licenses/LICENSE-2.0
+ 
+ 	Unless required by applicable law or agreed to in writing, software
+ 	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+
+-->
+<resources>
+
+    <string name="preferences_name">Nastavenia</string>
+    <string name="twrp_ors_title">Povoliť OpenRecoveryScript</string>
+    <string name="twrp_ors_summary">Funguje v TWRP a na niektorých custom recovery na báze CWM</string>
+    <string name="twrp_ors_information">Ak povolíte tento skript, ОТА aktualizácie budú nainštalované automaticky, bez zásahu užívateľa. Jednoducho kliknite na Nainštalovať a počkajte na dokončenie.</string>
+    <string name="twrp_ors_delete_after">Vymazať po inštalácii</string>
+    <string name="twrp_ors_delete_after_summary">Vymazať súbor aktualizácie po inštalácii?</string>
+    <string name="twrp_ors_install_prefs">Predvoľby inštalácie</string>
+    <string name="twrp_ors_install_prefs_summary">Vyberte predvolené akcie, ktoré sa vykonávajú v priebehu inštalácie</string>
+    <string name="twrp_ors_wipe_data">Vymazať Data</string>
+    <string name="twrp_ors_wipe_cache">Vymazať Cache</string>
+    <string name="twrp_ors_wipe_dalvik">Vymazať Dalvik</string>
+    <string name="notifications_title">Upozornenia</string>
+    <string name="background_service_summary">Automaticky kontrolovať aktualizácie a ak sú k dispozícii, zobraziť upozornenie</string>
+    <string name="background_frequency">Frekvencia kontroly aktualizácií</string>
+    <string name="background_30mins">30 minút</string>
+    <string name="background_60mins">60 minút</string>
+    <string name="background_2hours">2 hodiny</string>
+    <string name="background_3hours">3 hodiny</string>
+    <string name="background_6hours">6 hodín</string>
+    <string name="background_12hours">12 hodín</string>
+    <string name="background_24hours">denne</string>
+    <string name="background_2days">každé 2 dni</string>
+    <string name="background_3days">každé 3 dni</string>
+    <string name="background_7days">každý týždeň</string>
+    <string name="theme_title">Téma aplikácie</string>
+    <string name="mobile_wifi_network">Sieť</string>
+    <string name="mobile_wifi_title">Aktualizácia cez sieť</string>
+    <string name="wifi_network_only">Iba cez Wi-Fi</string>
+    <string name="mobile_or_wifi">Mobilná sieť alebo Wi-Fi</string>
+    <string name="theme">Тéma</string>
+    <string name="theme_dark">Tmavá</string>
+    <string name="theme_light">Svetlá</string>
+    <string name="theme_light_dark">Svetlá s čiernym panelom</string>
+    <string name="notifications_sound">Zvuk</string>
+    <string name="notifications_vibrate">Vibrácie</string>
+    <string name="silent_ringtone">Bez zvuku</string>
+    <string name="notification_ignore_release_title">Ignorovať verziu</string>
+    <string name="notification_ignoring_release">Ignorovaná verzia: </string>
+    <string name="notification_not_ignoring_release">V súčasnej dobe nie je ignorovaná žiadna verzia</string>
+    <string name="storage">Úložisko</string>
+    <string name="storage_location">Umiestnenie úložiska</string>
+</resources>
