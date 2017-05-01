@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ 	Copyright (C) 2015 Matt Booth (Kryten2k35).
+ 
+ 	Licensed under the Apache License, Version 2.0 (the "License"); 
+ 	you may not use this file except in compliance with the License.
+ 	You may obtain a copy of the License at
+ 
+ 		http://www.apache.org/licenses/LICENSE-2.0
+ 
+ 	Unless required by applicable law or agreed to in writing, software
+ 	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+
+-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="main_update_available">Aktualizácia je k dispozícii!</string>
+    <string name="main_update_finished">Sťahovanie dokončené</string>
+    <string name="main_no_update_available">Aktualizácie nie sú k dispozícii</string>
+    <string name="main_update_filename">Meno súboru</string>
+    <string name="main_update_progress">Proces sťahovania</string>
+    <string name="main_website">Webové stránky</string>
+    <string name="main_website_summary">Navštívte webové stránky</string>
+    <string name="main_donate">Prispieť</string>
+    <string name="main_donate_summary">Podpora pre vývojárov ROMky</string>
+    <string name="main_tap_to_download">Kliknite pre stiahnutie</string>
+    <string name="main_download_completed_details">Kliknite pre detaily</string>
+    <string name="main_tap_to_view_progress">Kliknite pre zobrazenie priebehu</string>
+    <string name="main_last_checked">Posledná kontrola aktualizácií</string>
+    <string name="main_addon">Doplnky</string>
+    <string name="main_addon_summary">Zobrazenie a sťahovanie doplnkov pre túto ROM</string>
+
+    <!-- ROM Information -->
+    <string name="main_rom_information">Informácie o ROM</string>
+    <string name="main_rom_name">Názov ROM:</string>
+    <string name="main_rom_version">Verzia ROM:</string>
+    <string name="main_rom_codename">Kódové meno ROM:</string>
+    <string name="main_rom_build_date">Dátum zostavenia:</string>
+    <string name="main_android_verison">Verzia Android:</string>
+    <string name="main_rom_developer">Vývojári:</string>
+
+    <!-- Dialogs -->
+    <string name="main_not_compatible_title">Zistená nekompatibilita</string>
+    <string name="main_not_compatible_message">Táto ROM nepodporuje OTA aktualizácie. Pre viac informácií kontaktujte vývojárov.</string>
+    <string name="main_not_connected_title">Nie je pripojenie</string>
+    <string name="main_not_connected_message">Nemáte pripojenie na Internet. Skontrolujte pripojenie cez Wi-Fi alebo mobilnú sieť a skúste to prosím znovu.</string>
+    <string name="main_playstore_title">BitCoin</string>
+    <string name="main_playstore_message">Nemáte aplikáciu pre prácu s \"bitcoin:\".\n\nChcete nájsť aplikáciu na Google Play?</string>
+
+    <!-- Content Descriptions -->
+    <string name="main_button_icon">Ikona tlačidla</string>
+    <string name="main_dev_website_icon">Ikona webu vývojára</string>
+    <string name="main_actionbar_button">Tlačidlá na paneli akcií</string>
+
+    <!-- Toast -->
+    <string name="main_release_ignored">Verzia ignorovaná</string>
+
+</resources>
