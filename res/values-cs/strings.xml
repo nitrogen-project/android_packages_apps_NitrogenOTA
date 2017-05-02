@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ 	Copyright (C) 2015 Matt Booth (Kryten2k35).
+ 
+ 	Licensed under the Apache License, Version 2.0 (the "License"); 
+ 	you may not use this file except in compliance with the License.
+ 	You may obtain a copy of the License at
+ 
+ 		http://www.apache.org/licenses/LICENSE-2.0
+ 
+ 	Unless required by applicable law or agreed to in writing, software
+ 	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+
+-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- Generic strings -->
+    <string name="cancel">Zrušit</string>
+    <string name="ok">ОК</string>
+    <string name="delete">Vymazat</string>
+    <string name="back">Zpět</string>
+    <string name="help">Informace</string>
+    <string name="loading">Nahrávání&#8230;</string>
+    <string name="filename_separator">-</string>
+    <string name="download">Stáhnout</string>
+    <string name="install">Nainstalovat</string>
+    <string name="downloading">Stahování&#8230;</string>
+    <string name="rebooting">Restartování&#8230;</string>
+    <string name="information">Informace</string>
+    <string name="update_available">Aktualizace ROM je k dispozici</string>
+    <string name="ignore">Ignorovat</string>
+    <string name="donate">Přispět</string>
+    <string name="finished">Dokončeno</string>
+    <string name="settings">Nastavení</string>
+    <string name="done">Hotovo</string>
+
+</resources>

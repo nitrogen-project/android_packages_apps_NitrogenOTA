@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ 	Copyright (C) 2015 Matt Booth (Kryten2k35).
+ 
+ 	Licensed under the Apache License, Version 2.0 (the "License"); 
+ 	you may not use this file except in compliance with the License.
+ 	You may obtain a copy of the License at
+ 
+ 		http://www.apache.org/licenses/LICENSE-2.0
+ 
+ 	Unless required by applicable law or agreed to in writing, software
+ 	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+
+-->
+<resources>
+
+    <string name="available_update_name">Název a informace o aktualizačním souboru</string>
+    <string name="available_progress_counter">0MB / 0MB</string>
+    <string name="available_changelog_title">Seznam změn</string>
+    <string name="available_changelog_content">Seznam změn</string>
+    <string name="available_check_md5">Ověřit MD5</string>
+    <string name="available_ready_to_install">Připraveno k instalaci</string>
+    <string name="available_md5_ok">Kontrola MD5 úspěšná</string>
+    <string name="available_md5_failed">Kontrola MD5 neúspěšná</string>
+    <string name="available_checking_md5">Probíhá kontrola MD5&#8230;</string>
+    <string name="available_downloading">Stahování&#8230;</string>
+    <string name="are_you_sure">Jste si jisti?</string>
+    <string name="available_delete_confirm_message">Jste si jisti, že chcete odstranit tento soubor?</string>
+    <string name="available_reboot_confirm">Chcete nyní restartovat?</string>
+    <string name="available_url_error">Chyba URL: Prosím, obraťte se na vývojáře ROM</string>
+    <string name="available_reboot_manual_title">Prosím, restartujte zařízení</string>
+    <string name="available_reboot_manual_message">Prosím, restartujte do recovery a nainstalujte aktualizaci.\n\nNajdete ji v cestě /sdcard/Downloads</string>
+    <string name="available_wrong_network_title">Vybraná síť není k dispozici</string>
+    <string name="available_wrong_network_message">Pokoušíte se stáhnout aktualizaci přes mobilní síť, ale nastavení povoluje stahování jen přes Wi-Fi. Prosím, nejprve změňte nastavení!</string>
+
+</resources>
