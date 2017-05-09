@@ -20,11 +20,11 @@
     <string name="preferences_name">Nastavení</string>
     <string name="twrp_ors_title">Povolit OpenRecoveryScript</string>
     <string name="twrp_ors_summary">Funguje v TWRP a na některých custom recovery na bázi CWM</string>
-    <string name="twrp_ors_information">Pokud povolíte tento skript, ОТА aktualizace budou nainstalované automaticky, bez zásahu uživatele. Jednoduše klikněte na Nainstalovat a počkejte na dokončení.</string>
+    <string name="twrp_ors_information">Pokud povolíte tento skript, ОТА aktualizace budou nainstalovány automaticky, bez zásahu uživatele. Jednoduše klikněte na nainstalovat a počkejte na dokončení.</string>
     <string name="twrp_ors_delete_after">Vymazat po instalaci</string>
     <string name="twrp_ors_delete_after_summary">Vymazat soubor aktualizace po instalaci?</string>
     <string name="twrp_ors_install_prefs">Předvolby instalace</string>
-    <string name="twrp_ors_install_prefs_summary">Vyberte předvolené akce, které sa vykonají v průběhu instalace</string>
+    <string name="twrp_ors_install_prefs_summary">Vyberte akce, které sa vykonají v průběhu instalace</string>
     <string name="twrp_ors_wipe_data">Vymazat Data</string>
     <string name="twrp_ors_wipe_cache">Vymazat Cache</string>
     <string name="twrp_ors_wipe_dalvik">Vymazat Dalvik</string>
@@ -53,9 +53,9 @@
     <string name="notifications_sound">Zvuk</string>
     <string name="notifications_vibrate">Vibrace</string>
     <string name="silent_ringtone">Bez zvuku</string>
-    <string name="notification_ignore_release_title">Ignorovat verzi</string>
-    <string name="notification_ignoring_release">Ignorovaná verze: </string>
-    <string name="notification_not_ignoring_release">V současné době není ignorována žádná verze</string>
+    <string name="notification_ignore_release_title">Ignorované verze</string>
+    <string name="notification_ignoring_release">Ignorovaná verze:</string>
+    <string name="notification_not_ignoring_release">Momentálně není ignorována žádná verze</string>
     <string name="storage">Úložiště</string>
     <string name="storage_location">Umístění úložiště</string>
 </resources>

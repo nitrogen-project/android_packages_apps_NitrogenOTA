@@ -20,11 +20,11 @@
     <string name="preferences_name">Nastavenia</string>
     <string name="twrp_ors_title">Povoliť OpenRecoveryScript</string>
     <string name="twrp_ors_summary">Funguje v TWRP a na niektorých custom recovery na báze CWM</string>
-    <string name="twrp_ors_information">Ak povolíte tento skript, ОТА aktualizácie budú nainštalované automaticky, bez zásahu užívateľa. Jednoducho kliknite na Nainštalovať a počkajte na dokončenie.</string>
+    <string name="twrp_ors_information">Ak povolíte tento skript, ОТА aktualizácie budú nainštalované automaticky, bez zásahu používateľa. Jednoducho kliknete na nainštalovať a počkáte na dokončenie.</string>
     <string name="twrp_ors_delete_after">Vymazať po inštalácii</string>
     <string name="twrp_ors_delete_after_summary">Vymazať súbor aktualizácie po inštalácii?</string>
     <string name="twrp_ors_install_prefs">Predvoľby inštalácie</string>
-    <string name="twrp_ors_install_prefs_summary">Vyberte predvolené akcie, ktoré sa vykonávajú v priebehu inštalácie</string>
+    <string name="twrp_ors_install_prefs_summary">Vyberte akcie, ktoré sa vykonávajú v priebehu inštalácie</string>
     <string name="twrp_ors_wipe_data">Vymazať Data</string>
     <string name="twrp_ors_wipe_cache">Vymazať Cache</string>
     <string name="twrp_ors_wipe_dalvik">Vymazať Dalvik</string>
@@ -53,9 +53,9 @@
     <string name="notifications_sound">Zvuk</string>
     <string name="notifications_vibrate">Vibrácie</string>
     <string name="silent_ringtone">Bez zvuku</string>
-    <string name="notification_ignore_release_title">Ignorovať verziu</string>
+    <string name="notification_ignore_release_title">Ignorované verzie</string>
     <string name="notification_ignoring_release">Ignorovaná verzia: </string>
-    <string name="notification_not_ignoring_release">V súčasnej dobe nie je ignorovaná žiadna verzia</string>
+    <string name="notification_not_ignoring_release">Momentálne nie je ignorovaná žiadna verzia</string>
     <string name="storage">Úložisko</string>
     <string name="storage_location">Umiestnenie úložiska</string>
 </resources>
