@@ -29,18 +29,18 @@
     <string name="main_tap_to_download">Kliknite pre stiahnutie</string>
     <string name="main_download_completed_details">Kliknite pre detaily</string>
     <string name="main_tap_to_view_progress">Kliknite pre zobrazenie priebehu</string>
-    <string name="main_last_checked">Posledná kontrola aktualizácií</string>
+    <string name="main_last_checked">Posledná kontrola:</string>
     <string name="main_addon">Doplnky</string>
-    <string name="main_addon_summary">Zobrazenie a sťahovanie doplnkov pre túto ROM</string>
+    <string name="main_addon_summary">Zobrazenie a stiahnutie doplnkov pre ROM</string>
 
     <!-- ROM Information -->
     <string name="main_rom_information">Informácie o ROM</string>
-    <string name="main_rom_name">Názov ROM:</string>
-    <string name="main_rom_version">Verzia ROM:</string>
+    <string name="main_rom_name">Názov:</string>
+    <string name="main_rom_version">Verzia:</string>
     <string name="main_rom_codename">Kódové meno ROM:</string>
     <string name="main_rom_build_date">Dátum zostavenia:</string>
-    <string name="main_android_verison">Verzia Android:</string>
-    <string name="main_rom_developer">Vývojári:</string>
+    <string name="main_android_verison">Verzia Androidu:</string>
+    <string name="main_rom_developer">Vývojár:</string>
 
     <!-- Dialogs -->
     <string name="main_not_compatible_title">Zistená nekompatibilita</string>
@@ -57,5 +57,4 @@
 
     <!-- Toast -->
     <string name="main_release_ignored">Verzia ignorovaná</string>
-
 </resources>
