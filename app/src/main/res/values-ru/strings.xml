@@ -15,44 +15,47 @@
   ~ limitations under the License.
   -->
 <resources>
-  <!-- App -->
-  <string name="app_name">Обновления Nitrogen OS</string>
-  <string name="app_title">Обновления Nitrogen OS</string>
+    <!-- App -->
+    <string name="app_name">Обновления Nitrogen OS</string>
+    <string name="app_title">Обновления Nitrogen OS</string>
 
-  <!-- Categories -->
-  <string name="ota_category">OTA</string>
-  <string name="links_category">Ссылки</string>
+    <!-- Categories -->
+    <string name="ota_category">OTA</string>
+    <string name="links_category">Ссылки</string>
 
-  <!-- ROM info -->
-  <string name="latest_version">Последняя версия: %1$s</string>
-  <string name="unknown">Неизвестно</string>
-  <string name="system_uptodate">Ваша система обновлена до последней версии</string>
+    <!-- ROM info -->
+    <string name="latest_version">Последняя версия: %1$s</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="system_uptodate">Ваша система обновлена до последней версии</string>
 
-  <!-- Check update -->
-  <string name="check_update_title">Проверить обновления</string>
-  <string name="last_check_summary">Последняя проверка: %1$s</string>
-  <string name="last_check_never">Никогда</string>
-  <string name="check_update_failed">Невозможно проверить обновления</string>
-  <string name="no_update_available">Нет доступных обновлений</string>
+    <!-- Check update -->
+    <string name="check_update_title">Проверить обновления</string>
+    <string name="last_check_summary">Последняя проверка: %1$s</string>
+    <string name="last_check_never">Никогда</string>
+    <string name="check_update_failed">Невозможно проверить обновления</string>
+    <string name="update_available">Доступно обновление!</string>
+    <string name="no_update_available">Нет доступных обновлений</string>
 
-  <!-- Update interval -->
-  <string name="interval_title">Интервал автоматического обновления</string>
-  <string name="interval_entry_disable">Отключено</string>
-  <string name="interval_entry_1h">Каждый час</string>
-  <string name="interval_entry_12h">Каждые 12 часов</string>
-  <string name="interval_entry_24h">Каждые 24 часа</string>
-  <string name="autoupdate_enabled">Автоматическое обновление включено</string>
-  <string name="autoupdate_disabled">Автоматическое обновление выключено</string>
+    <!-- Update interval -->
+    <string name="interval_title">Интервал автоматического обновления</string>
+    <string name="interval_entry_disable">Отключено</string>
+    <string name="interval_entry_1h">Каждый час</string>
+    <string name="interval_entry_12h">Каждые 12 часов</string>
+    <string name="interval_entry_24h">Каждые 24 часа</string>
+    <string name="autoupdate_enabled">Автоматическое обновление включено</string>
+    <string name="autoupdate_disabled">Автоматическое обновление выключено</string>
 
-  <!-- Notification -->
-  <string name="notification_title">Обновление прошивки</string>
-  <string name="notification_message">Доступны новые обновления!</string>
+    <!-- Notification -->
+    <string name="notification_title">Обновление Nitrogen OS</string>
+    <string name="notification_message">Доступно новое обновление!</string>
+    <string name="nitrogen_channel">Уведомления NitrogenOTA</string>
+    <string name="nitrogen_channel_description">Уведомления о новой версии Nitrogen OS</string>
 
-  <!-- Dialog -->
-  <string name="dialog_message">Проверка обновлений, пожалуйста, подождите...</string>
-  <string name="no_changelog_summary">Нет списка изменений</string>
-  <string name="changelog_title">Список изменений</string>
-  <string name="changelog_summary">Текущий список изменений</string>
+    <!-- Dialog -->
+    <string name="dialog_message">Проверка обновлений, пожалуйста, подождите...</string>
+    <string name="no_changelog_summary">Нет списка изменений</string>
+    <string name="changelog_title">Список изменений</string>
+    <string name="changelog_summary">Текущий список изменений</string>
 
     <!-- Toast -->
     <string name="toast_message">Интернет браузер не установлен</string>
