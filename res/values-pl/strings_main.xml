@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ 	Copyright (C) 2015 Matt Booth (Kryten2k35).
+ 
+ 	Licensed under the Apache License, Version 2.0 (the "License"); 
+ 	you may not use this file except in compliance with the License.
+ 	You may obtain a copy of the License at
+ 
+ 		http://www.apache.org/licenses/LICENSE-2.0
+ 
+ 	Unless required by applicable law or agreed to in writing, software
+ 	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="main_update_available">Aktualizacja jest dostępna!</string>
+    <string name="main_update_finished">Pobieranie ukończone</string>
+    <string name="main_no_update_available">Brak dostępnych aktualizacji</string>
+    <string name="main_update_filename">Nazwa pliku</string>
+    <string name="main_update_progress">Postęp pobierania</string>
+    <string name="main_website">Strona internetowa</string>
+    <string name="main_website_summary">Odwiedź stronę ROMu</string>
+    <string name="main_donate">Dotacja</string>
+    <string name="main_donate_summary">Przekaż darowiznę dla twórcy ROMu</string>
+    <string name="main_tap_to_download">Dotknij, aby pobrać</string>
+    <string name="main_download_completed_details">Dotknij, aby sprawdzić szczegóły</string>
+    <string name="main_tap_to_view_progress">Dotknij, aby sprawdzić postęp</string>
+    <string name="main_last_checked">Ostatnie wyszukiwanie aktualizacji o</string>
+    <string name="main_addon">Dodatki</string>
+    <string name="main_addon_summary">Przeglądaj i pobieraj dodatkowe pliki dla tego ROMu</string>
+
+    <!-- ROM Information -->
+    <string name="main_rom_information">Informacja o ROMie</string>
+    <string name="main_rom_name">Nazwa ROMu:</string>
+    <string name="main_rom_version">Wersja ROMu:</string>
+    <string name="main_rom_codename">Nazwa kodowa ROMu:</string>
+    <string name="main_rom_build_date">Data kompilacji ROMu</string>
+    <string name="main_android_verison">Wersja Android:</string>
+    <string name="main_rom_developer">Developer(zy):</string>
+
+    <!-- Dialogs -->
+    <string name="main_not_compatible_title">Brak kompatybilno?ci</string>
+    <string name="main_not_compatible_message">Ten ROM nie jest kompatybilny z Nitrogen OTA. Skontaktuj się z twórcą ROMu. Ta aplikacja wymaga niestandardowego ROMu, w którym twórca włączył ową obsługę. Nie oceniaj na 1 gwiazdkę z tego powodu.</string>
+    <string name="main_not_connected_title">Nie połączono</string>
+    <string name="main_not_connected_message">Nie masz połączenia z żadną siecią. Włcz transmisję danych lub Wi-Fi i spróbuj ponownie.</string>
+    <string name="main_playstore_title">BitCoin</string>
+    <string name="main_playstore_message">Nie masz żadnych dostępnych aplikacji do obsługi \"bitcoin:\" mime-type.\n\nCzy chcesz przeszukać Sklep Google Play, aby ją znaleźć?</string>
+
+    <!-- Content Descriptions -->
+    <string name="main_button_icon">Ikona przycisku</string>
+    <string name="main_dev_website_icon">Strona twórcy ikony</string>
+    <string name="main_actionbar_button">Przyciski paska akcji</string>
+
+    <!-- Toast -->
+    <string name="main_release_ignored">Wydanie zignorowane</string>
+
+</resources>
