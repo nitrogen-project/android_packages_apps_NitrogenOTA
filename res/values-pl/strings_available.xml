@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ 	Copyright (C) 2015 Matt Booth (Kryten2k35).
+ 
+ 	Licensed under the Apache License, Version 2.0 (the "License"); 
+ 	you may not use this file except in compliance with the License.
+ 	You may obtain a copy of the License at
+ 
+ 		http://www.apache.org/licenses/LICENSE-2.0
+ 
+ 	Unless required by applicable law or agreed to in writing, software
+ 	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+
+-->
+<resources>
+
+    <string name="available_update_name">Nazwa aktualizacji i informacje o pliku są tutaj</string>
+    <string name="available_progress_counter">0MB / 0MB</string>
+    <string name="available_changelog_title">Lista zmian</string>
+    <string name="available_changelog_content">Twoja lista zmian jest tutaj</string>
+    <string name="available_md5" translatable="false">MD5:</string>
+    <string name="available_check_md5">Sprawdź MD5</string>
+    <string name="available_ready_to_install">Gotowe do instalacji</string>
+    <string name="available_md5_ok">MD5 jest zgodne</string>
+    <string name="available_md5_failed">MD5 nie jest zgodne</string>
+    <string name="available_checking_md5">Sprawdzanie MD5&#8230;</string>
+    <string name="available_downloading">Pobieranie&#8230;</string>
+    <string name="are_you_sure">Jesteś pewien?</string>
+    <string name="available_delete_confirm_message">Czy na pewno chcesz usunąć pobrany plik?</string>
+    <string name="available_reboot_confirm">Czy chcesz uruchomić ponownie?</string>
+    <string name="available_url_error">Błąd adresu URL: zapoznaj się z programistą ROMu</string>
+    <string name="available_reboot_manual_title">Uruchom ponownie teraz</string>
+    <string name="available_reboot_manual_message">Uruchom recovery i zainstaluj ROM.\n\nMożesz go znaleźć w /sdcard/Downloads</string>
+    <string name="available_wrong_network_title">Wybrano niewłaściwą sieć</string>
+    <string name="available_wrong_network_message">Próbujesz pobrać przez sieć komórkową, a ustawienia zezwalają tylko na Wi-Fi. Zmień na odpowiednie ustawienia.</string>
+
+</resources>
