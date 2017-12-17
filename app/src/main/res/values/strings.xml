@@ -56,4 +56,6 @@
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Current changelog</string>
 
+    <!-- Toast -->
+    <string name="toast_message">There\'s no browser installed</string>
 </resources>

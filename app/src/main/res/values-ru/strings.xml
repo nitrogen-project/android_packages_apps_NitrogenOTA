@@ -53,4 +53,7 @@
   <string name="no_changelog_summary">Нет списка изменений</string>
   <string name="changelog_title">Список изменений</string>
   <string name="changelog_summary">Текущий список изменений</string>
+
+    <!-- Toast -->
+    <string name="toast_message">Интернет браузер не установлен</string>
 </resources>
