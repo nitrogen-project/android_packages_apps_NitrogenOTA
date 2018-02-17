@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.fusionjack.slimota"
+        applicationId "com.nitrogen.ota"
         minSdkVersion 21
         targetSdkVersion 22
         versionCode 4

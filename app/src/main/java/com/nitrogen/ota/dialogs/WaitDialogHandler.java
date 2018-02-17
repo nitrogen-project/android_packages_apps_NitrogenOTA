@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.dialogs;
+package com.nitrogen.ota.dialogs;
 
 import android.app.Activity;
 import android.app.Fragment;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.scheduler;
+package com.nitrogen.ota.scheduler;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -25,8 +25,8 @@ import android.net.NetworkInfo;
 import android.os.SystemClock;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.fusionjack.slimota.configs.AppConfig;
-import com.fusionjack.slimota.utils.OTAUtils;
+import com.nitrogen.ota.configs.AppConfig;
+import com.nitrogen.ota.utils.OTAUtils;
 
 public class OTAListener implements WakefulIntentService.AlarmListener {
 
@@ -38,11 +38,11 @@ public class OTAListener implements WakefulIntentService.AlarmListener {
     public void scheduleAlarms(AlarmManager alarmManager, PendingIntent pendingIntent, Context context) {
         mIntervalValue = AppConfig.getUpdateIntervalTime(context);
         if (mIntervalValue > 0) {
-            OTAUtils.logInfo("SlimOTA is scheduled for every: " + mIntervalValue + " ms");
+            OTAUtils.logInfo("NitrogenOTA is scheduled for every: " + mIntervalValue + " ms");
             alarmManager.setInexactRepeating(AlarmManager.ELAPSED_REALTIME_WAKEUP,
                     SystemClock.elapsedRealtime() + 60000, mIntervalValue, pendingIntent);
         } else {
-            OTAUtils.logInfo("SlimOTA is disabled");
+            OTAUtils.logInfo("NitrogenOTA is disabled");
         }
     }
 

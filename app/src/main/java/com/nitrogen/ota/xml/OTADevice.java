@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.xml;
+package com.nitrogen.ota.xml;
 
 import java.util.ArrayList;
 import java.util.List;
