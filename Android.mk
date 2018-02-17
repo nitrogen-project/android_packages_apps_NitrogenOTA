@@ -2,7 +2,7 @@ LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
 ifneq ($(ANDROID_BUILD_TOP),)
-    $(shell cp -u $(ANDROID_BUILD_TOP)/ota_conf $(LOCAL_PATH)/app/src/main/assets/)
+    $(shell cp -u $(ANDROID_BUILD_TOP)/vendor/nitrogen/ota/ota_conf $(LOCAL_PATH)/app/src/main/assets/)
 endif
 
 LOCAL_MODULE_TAGS := optional
