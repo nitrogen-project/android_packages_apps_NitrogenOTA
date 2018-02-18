@@ -61,4 +61,12 @@
 
     <!-- Toast -->
     <string name="toast_message">There\'s no browser installed</string>
+
+    <!-- Links -->
+    <string name="links_rom_title">ROM</string>
+    <string name="links_rom_summary">Download Nitrogen OS build</string>
+    <string name="links_changelog_title">Changelog</string>
+    <string name="links_changelog_summary">Download new changelog file</string>
+    <string name="links_donation_title">Donation</string>
+    <string name="links_donation_summary">Donate to developer</string>
 </resources>

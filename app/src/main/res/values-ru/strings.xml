@@ -59,4 +59,12 @@
 
     <!-- Toast -->
     <string name="toast_message">Интернет браузер не установлен</string>
+
+    <!-- Links -->
+    <string name="links_rom_title">Прошивка</string>
+    <string name="links_rom_summary">Скачать сборку Nitrogen OS</string>
+    <string name="links_changelog_title">Список изменений</string>
+    <string name="links_changelog_summary">Скачать новый список изменений</string>
+    <string name="links_donation_title">Пожертвование</string>
+    <string name="links_donation_summary">Пожертвовать сумму разработчику</string>
 </resources>

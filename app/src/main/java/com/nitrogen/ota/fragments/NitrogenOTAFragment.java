@@ -93,8 +93,24 @@ public class NitrogenOTAFragment extends PreferenceFragment implements
             }
             if (linkPref != null) {
                 String title = link.getTitle();
-                linkPref.setTitle(title.isEmpty() ? id : title);
-                linkPref.setSummary(link.getDescription());
+                switch (id) {
+                case "rom":
+                    linkPref.setTitle(getActivity().getResources().getString(R.string.links_rom_title));
+                    linkPref.setSummary(getActivity().getResources().getString(R.string.links_rom_summary));
+                    break;
+                case "changelog":
+                    linkPref.setTitle(getActivity().getResources().getString(R.string.links_changelog_title));
+                    linkPref.setSummary(getActivity().getResources().getString(R.string.links_changelog_summary));
+                    break;
+                case "donation":
+                    linkPref.setTitle(getActivity().getResources().getString(R.string.links_donation_title));
+                    linkPref.setSummary(getActivity().getResources().getString(R.string.links_donation_summary));
+                    break;
+                default:
+                    linkPref.setTitle(title.isEmpty() ? id : title);
+                    linkPref.setSummary(link.getDescription());
+                    break;
+                }
             }
         }
     }
