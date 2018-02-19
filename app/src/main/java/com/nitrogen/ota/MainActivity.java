@@ -45,12 +45,6 @@ public class MainActivity extends PreferenceActivity implements
         getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
-    @Override
-    protected boolean isValidFragment(String fragmentName) {
-        return NitrogenOTAFragment.class.getName().equalsIgnoreCase(fragmentName);
-    }
-
-    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             // Respond to the action bar's Up/Home button
