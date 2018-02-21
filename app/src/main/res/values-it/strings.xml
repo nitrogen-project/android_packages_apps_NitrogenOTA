@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 Chandra Poerwanto
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Aggiornamenti Nitrogen OS</string>
+    <string name="app_title">Aggiornamenti Nitrogen OS</string>
+
+    <!-- Categories -->
+    <string name="ota_category">OTA</string>
+    <string name="links_category">Link</string>
+
+    <!-- ROM info -->
+    <string name="latest_version">Aggiornamento disponibile!\nUltima versione: %1$s</string>
+    <string name="unknown">Sconosciuto</string>
+    <string name="system_uptodate">Il tuo sistema è aggiornato</string>
+
+    <!-- Check update -->
+    <string name="check_update_title">Controlla l\'aggiornamento</string>
+    <string name="last_check_summary">Ultimo controllo: %1$s</string>
+    <string name="last_check_never">Mai</string>
+    <string name="check_update_failed">Impossibile controllare l\'aggiornamento</string>
+    <string name="update_available">Aggiornamento disponibile!</string>
+    <string name="no_update_available">Nessun aggiornamento disponibile</string>
+
+    <!-- Update interval -->
+    <string name="interval_title">Intervallo aggiornamento automatico</string>
+    <string name="interval_entry_disable">Disabilitato</string>
+    <string name="interval_entry_1h">Ogni ora</string>
+    <string name="interval_entry_12h">Ogni 12 ore</string>
+    <string name="interval_entry_24h">Ogni 24 ore</string>
+    <string name="autoupdate_enabled">L\'aggiornamento automatico è abilitato</string>
+    <string name="autoupdate_disabled">L\'aggiornamento automatico è disabilitato</string>
+
+    <!-- Notification -->
+    <string name="notification_title">Aggiornamento Nitrogen OS</string>
+    <string name="notification_message">È disponibile una nuova versione!</string>
+    <string name="nitrogen_channel">Notifiche NitrogenOTA</string>
+    <string name="nitrogen_channel_description">Notifica i nuovi aggiornamenti di Nitrogen OS</string>
+
+    <!-- Dialog -->
+    <string name="dialog_message">Controllo degli aggiornamenti della ROM, attendere prego…</string>
+
+    <!-- Toast -->
+    <string name="toast_message">Non ci sono browser installati</string>
+
+    <!-- Links -->
+    <string name="links_rom_title">ROM</string>
+    <string name="links_rom_summary">Scarica la build di Nitrogen OS</string>
+    <string name="links_changelog_title">Modifche</string>
+    <string name="links_changelog_summary">Scarica il file delle nuove modifiche</string>
+    <string name="links_donation_title">Donazioni</string>
+    <string name="links_donation_summary">Fai una donazione allo sviluppatore</string>
+</resources>
