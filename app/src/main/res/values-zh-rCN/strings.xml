@@ -18,7 +18,7 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">Nitrogen OS 更新</string>
+    <string name="app_name">系统更新</string>
     <string name="app_title">Nitrogen OS 更新</string>
 
     <!-- Categories -->
@@ -27,7 +27,7 @@
 
     <!-- ROM info -->
     <string name="latest_version">有可用更新！\n最新版本: %1$s</string>
-    <string name="unknown">未知</string>
+    <string name="unknown">未知版本</string>
     <string name="system_uptodate">您的系统已是最新版本</string>
 
     <!-- Check update -->
@@ -35,7 +35,7 @@
     <string name="last_check_summary">最后检查: %1$s</string>
     <string name="last_check_never">从未</string>
     <string name="check_update_failed">无法检查更新</string>
-    <string name="update_available">可用更新！</string>
+    <string name="update_available">发现更新！</string>
     <string name="no_update_available">无可用更新</string>
 
     <!-- Update interval -->
@@ -50,8 +50,8 @@
     <!-- Notification -->
     <string name="notification_title">Nitrogen OS 更新</string>
     <string name="notification_message">有新版本可用！</string>
-    <string name="nitrogen_channel">Nitrogen OTA 通知</string>
-    <string name="nitrogen_channel_description">有 Nitrogen OS 更新时的通知</string>
+    <string name="nitrogen_channel">系统OTA 通知</string>
+    <string name="nitrogen_channel_description">有系统更新时的通知我</string>
 
     <!-- Dialog -->
     <string name="dialog_message">正在检查系统更新，请稍候…</string>
@@ -61,9 +61,9 @@
 
     <!-- Links -->
     <string name="links_rom_title">ROM</string>
-    <string name="links_rom_summary">下载 Nitrogen OS 编译</string>
+    <string name="links_rom_summary">下载最新Nitrogen OS</string>
     <string name="links_changelog_title">更新日志</string>
-    <string name="links_changelog_summary">下载新的更新日志</string>
+    <string name="links_changelog_summary">下载最新更新日志</string>
     <string name="links_donation_title">捐赠</string>
-    <string name="links_donation_summary">捐赠给开发人员</string>
+    <string name="links_donation_summary">给开发者捐赠一杯可乐？</string>
 </resources>
