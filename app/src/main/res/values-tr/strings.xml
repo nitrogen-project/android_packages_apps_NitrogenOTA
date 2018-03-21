@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 Chandra Poerwanto
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Nitrogen OS güncellemeleri</string>
+    <string name="app_title">Nitrogen OS güncellemeleri</string>
+
+    <!-- Categories -->
+    <string name="ota_category">OTA</string>
+    <string name="links_category">Bağlantılar</string>
+
+    <!-- ROM info -->
+    <string name="latest_version">Güncelleme mevcut!\En son sürüm: %1$s</string>
+    <string name="unknown">Bilinmiyor</string>
+    <string name="system_uptodate">Sisteminiz güncel</string>
+
+    <!-- Check update -->
+    <string name="check_update_title">Güncellemeyi kontrol et</string>
+    <string name="last_check_summary">Son kontrol: %1$s</string>
+    <string name="last_check_never">Asla</string>
+    <string name="check_update_failed">Güncelleme kontrol edemiyor</string>
+    <string name="update_available">Güncelleme mevcut!</string>
+    <string name="no_update_available">Güncelleme mevcut değil</string>
+
+    <!-- Update interval -->
+    <string name="interval_title">Otomatik güncelleme aralığı</string>
+    <string name="interval_entry_disable">Devre dışı</string>
+    <string name="interval_entry_1h">Her saat</string>
+    <string name="interval_entry_12h">12 saatte bir</string>
+    <string name="interval_entry_24h">24 saatte bir</string>
+    <string name="autoupdate_enabled">Otomatik güncelleme etkin</string>
+    <string name="autoupdate_disabled">Otomatik güncelleme devre dışı</string>
+
+    <!-- Notification -->
+    <string name="notification_title">Nitrogen OS güncellemeleri</string>
+    <string name="notification_message">Yeni bir versiyon mevcut</string>
+    <string name="nitrogen_channel">NitrogenOTA bildirimleri</string>
+    <string name="nitrogen_channel_description">Yeni Nitrogen OS güncellemeleri hakkında bildirimler</string>
+
+    <!-- Dialog -->
+    <string name="dialog_message">ROM güncellemeleri kontrol ediliyor, lütfen bekleyin…</string>
+
+    <!-- Toast -->
+    <string name="toast_message">Yüklü tarayıcı bulunamadı</string>
+
+    <!-- Links -->
+    <string name="links_rom_title">ROM</string>
+    <string name="links_rom_summary">Nitrogen OS yapısını indir</string>
+    <string name="links_changelog_title">Değişiklikler</string>
+    <string name="links_changelog_summary">Yeni değişiklikler dosyasını indir</string>
+    <string name="links_donation_title">Bağış</string>
+    <string name="links_donation_summary">Geliştiriciye bağış yapın</string>
+</resources>
