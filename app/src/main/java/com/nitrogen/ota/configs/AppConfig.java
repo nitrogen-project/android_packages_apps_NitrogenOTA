@@ -98,7 +98,7 @@ public final class AppConfig {
                 intervalValue = AlarmManager.INTERVAL_DAY;
                 break;
             default:
-                intervalValue = AlarmManager.INTERVAL_HALF_DAY;
+                intervalValue = 0;
                 break;
         }
 
@@ -138,6 +138,6 @@ public final class AppConfig {
 
     public static long getUpdateIntervalTime(Context context) {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
-        return sharedPreferences.getLong(UPDATE_INTERVAL, AlarmManager.INTERVAL_HALF_DAY);
+        return sharedPreferences.getLong(UPDATE_INTERVAL, 0);
     }
 }
