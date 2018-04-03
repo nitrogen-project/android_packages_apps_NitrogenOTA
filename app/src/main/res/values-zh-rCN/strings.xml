@@ -61,9 +61,9 @@
 
     <!-- Links -->
     <string name="links_rom_title">ROM</string>
-    <string name="links_rom_summary">下载 Nitrogen OS 编译</string>
+    <string name="links_rom_summary">下载最新的 Nitrogen OS rom</string>
     <string name="links_changelog_title">更新日志</string>
-    <string name="links_changelog_summary">下载新的更新日志</string>
+    <string name="links_changelog_summary">下载最新的更新日志</string>
     <string name="links_donation_title">捐赠</string>
-    <string name="links_donation_summary">捐赠给开发人员</string>
+    <string name="links_donation_summary">捐赠开发人员</string>
 </resources>
